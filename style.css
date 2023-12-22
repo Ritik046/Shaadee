@@ -1,0 +1,56 @@
+#contact{
+    padding: 3rem;
+    background: #c87979;
+}
+
+#contact .contact-form .bottom-line{
+    width: 10.2vw;
+    margin-bottom: 1rem;
+}
+
+.contact-form .form-div{
+    padding: .6rem;
+}
+
+.contact-form .form-div input,
+.contact-form .form-div textarea{
+    padding: .7rem 1rem;
+    font-family: 'Baloo 2', cursive;
+    font-size: .9rem;
+    width: 90%;
+}
+
+.contact-form .form-div textarea{
+    height: 170px;
+}
+
+.contact-form .btn:hover{
+    opacity: .9;
+}
+
+.contact-info .bottom-line{
+    width: 10.7vw;
+    margin-bottom: 1rem;
+}
+
+.contact-info > p{
+    padding: 1.5rem 0;
+}
+
+.contact-info p{
+    font-size: 1.2rem;
+}
+
+.contact-info .info{
+    display: flex;
+    align-items: center;
+}
+
+.contact-info .info i{
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+#red
+{
+    background-color: #ffc107;
+}

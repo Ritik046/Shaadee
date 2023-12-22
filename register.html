@@ -1,0 +1,334 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/carousel/"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="/docs/5.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      href="/docs/5.0/assets/img/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.0/assets/img/favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.0/assets/img/favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg"
+      color="#7952b3"
+    />
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico" />
+    <meta name="theme-color" content="#7952b3" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header >
+        <nav  style="color: #ffc107" class="navbar navbar-expand-lg sticky-top navbar-dark bg-danger" >
+          <div class="container-fluid" style="background-color: #ffc107">
+            <a class="navbar-brand" nstyle="font-size:font-weight:bold" href="index.html">PB</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse" style="background-color: #ffc107">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html#gallery"
+                    >Gallery</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active"  aria-current="page" href="register.html">Register</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <section id="contact">
+        <div class="box">
+            <div class="contact-form">
+                <h1 style="color: yellow">Register NOW</h1>
+                <div class="bottom-line"></div>
+                <form method="POST" name="contact" data-netlify="true">
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder=" First Name...">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Last Name...">
+                        
+                    </div>
+
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Gender">
+                        <select  type="text" name="name" required>
+                            <option vlaue=""></option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Others</option>
+
+                        </select>
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="DOB">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Height">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Colour">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Education">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Contact No.">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Manglik Status">
+                      
+                        <select  type="text" name="name" required>
+                        <option vlaue="Select"></option>
+                        <option>Yes</option>
+                        <option>No</option>
+                        <option>Anshik</option>
+
+                    </select>
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Gotra">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Email Id">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Password">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Cast">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Divorcee">
+                        
+                        <select  type="text" name="name" required>
+                            <option vlaue="Select"></option>
+                            <option>Yes</option>
+                            <option>No</option>
+                            </select>
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Occupation">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Annual Salary">
+                    </div>
+
+<!-- <div>
+                    <h4 class="form-div">Eating Habbits:</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" checked required>
+              <label  for="credit" value="Non Vegeterian">Non Vegeterian</label>
+            </div>
+            <div class="form-check">
+                <input id="credit" name="paymentMethod" type="radio" checked required>
+                <label  for="credit" value="vegiterian">Vegeterian</label>
+              </div>
+          </div>
+          </div>
+
+<br>
+
+          <div></div>
+          <h4 class="form-div">Smoker:</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" checked required>
+              <label  for="credit">Non Smoker</label>
+            </div>
+            <div class="form-check">
+                <input id="credit" name="paymentMethod" type="radio" checked required>
+                <label  for="credit">Smoker</label>
+              </div>
+          </div>
+
+          <div></div>
+          <h4 class="form-div">Alcohol:</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" checked required>
+              <label  for="credit">Non Drinker</label>
+            </div>
+            <div class="form-check">
+                <input id="credit" name="paymentMethod" type="radio" checked required>
+                <label  for="credit">Drinker</label>
+              </div>
+          </div> -->
+
+  
+          <div class="form-div1">
+            <label for="exampleInputEmail" name="habit">Eating Habbits:</label>
+            <br>
+            <input type="radio" value="Non Vegeterian" name="habbit">
+            Non Vegeterian
+            <br>
+            <input type="radio" value=" Vegeterian" name="habbit">
+            Vegeterian
+            
+          </div>
+
+          <div class="form-div1">
+            <label for="exampleInputEmail" name="habit1">Smoker:</label>
+            <br>
+            <input type="radio" value="Non Smoker" name="habbit1">
+            Non Smoker
+            <br>
+            <input type="radio" value="Non Smoker" name="habbit1">
+            Smoker
+            
+          </div>
+
+          <div class="form-div1">
+            <label for="exampleInputEmail" name="habit2">Alcohol:</label>
+            <br>
+            <input type="radio" value="Non Drinker" name="habbit2">
+            Non Drinker
+            <br>
+            <input type="radio" value="Drinker" name="habbit3">
+            Drinker
+            
+          </div>
+
+
+
+
+
+                    <div class="form-div">
+                        <textarea type="text" name="name" placeholder="Residntial Address">Residential Address...</textarea>
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="House Status">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Native Palce">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Cureent City">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Father's Name">
+                    </div>
+                    <div class="form-div">
+                        <input type="text" name="name" placeholder="Father's Occupation">
+                    </div>
+             
+                   
+                    
+                    <button type="submit" class="btn" id="red">Submit</button>
+                </form>
+            </div>
+           
+            
+        </div>
+        </section>
+        
+      <div class="bg-danger text-secondary px-4 py-3 text-center">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold text-warning">
+            Pavitra Bhandhan
+          </h1>
+          <div class="col-lg-6 mx-auto text-light">
+            <p class="fs-5 mb-4">
+              © Copyright 2022|All Rights Reserved 
+            </p>
+            <p class="fs-5 mb-4">Designed by <a href="https://www.instagram.com/ritikroy046/" style="color:black">@RITIK</a></p>
+    
+            <a href="https://www.instagram.com/ritikroy046"> <i class="social-icon fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/ritikroy0043"> <i class="social-icon fa-brands fa-twitter-square"></i></a>
+         <a href="https://google.com/">  <i class="social-icon fa-solid fa-envelope"></i></a>
+            <h5 class="display-5 fw-bold text-warning"><h4 style="color:#ffc107">Thanks for Visiting</h4></h5>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/ac7165a931.js" crossorigin="anonymous"></script>
+</body>
+
